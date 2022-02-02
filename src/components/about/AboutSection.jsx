@@ -11,16 +11,16 @@ import {
 export const AboutSection = () => {
   return (
     <>
-      <section className="p-5 bg-dark text-light">
+      <section id="aboutus" className="p-5 bg-dark text-light">
         <Container>
-          <Row className="text-center g-4 mt-4 justify-content-center align-items-center">
+          <Row className="text-center g-4 my-4 justify-content-center align-items-center">
             <Col xs={12} md={6}>
               <img
                 src="https://randomuser.me/api/portraits/men/11.jpg"
                 className="mb-3 rounded-circle"
                 alt=""
                 width={250}
-                height={"auto"}
+                height="auto"
               />
             </Col>
             <Col xs={12} md={6}>

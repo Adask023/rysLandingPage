@@ -18,7 +18,7 @@ export const Navigation = () => {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav>
-              <Nav.Link href="#home">Kim jesteśmy</Nav.Link>
+              <Nav.Link href="#aboutus">Kim jesteśmy</Nav.Link>
               <Nav.Link href="#features">Referencje</Nav.Link>
               <NavDropdown title="Usługi">
                 <NavDropdown.Item>Konsultacja</NavDropdown.Item>

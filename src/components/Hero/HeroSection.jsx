@@ -39,7 +39,7 @@ export const HeroSection = () => {
                 reiciendis maxime doloribus ut? Sed facere magnam a
                 exercitationem dolorem ratione.
               </p>
-              <Button href="#" className="btn m-1" variant="warning">
+              <Button href="#aboutus" className="btn m-1" variant="warning">
                 Poznaj nas
               </Button>
               <Button href="#" className="btn m-1" variant="outline-warning">
