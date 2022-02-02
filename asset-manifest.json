@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rysLandingPage/static/css/main.1a8a0596.css",
+    "main.js": "/rysLandingPage/static/js/main.a3bffe2f.js",
+    "index.html": "/rysLandingPage/index.html",
+    "main.1a8a0596.css.map": "/rysLandingPage/static/css/main.1a8a0596.css.map",
+    "main.a3bffe2f.js.map": "/rysLandingPage/static/js/main.a3bffe2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a8a0596.css",
+    "static/js/main.a3bffe2f.js"
+  ]
+}
