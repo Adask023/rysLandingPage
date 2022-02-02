@@ -4,9 +4,16 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 export const Navigation = () => {
   return (
     <>
-      <Navbar className="p-3" bg="dark" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar
+        fixed="top"
+        className="p-3"
+        bg="dark"
+        variant="dark"
+        expand="lg"
+        collapseOnSelect
+      >
         <Container>
-          <Navbar.Brand href="#home">Gravity Gym</Navbar.Brand>
+          <Navbar.Brand href="#home"><span className="text-warning">G</span>ravity Gym</Navbar.Brand>
 
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
