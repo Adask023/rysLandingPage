@@ -8,9 +8,9 @@ export const ServicesSection = () => {
         <Row>
           <Col xs={12}>
             <div>
-              <h2 className="text-center my-5">
+              <h1 className="text-center my-5">
                 <span className="text-warning">N</span>asze usługi
-              </h2>
+              </h1>
             </div>
           </Col>
         </Row>

@@ -1,4 +1,5 @@
 import { AboutSection } from "./components/about/AboutSection";
+import { Banner } from "./components/banner/ParallaxBanner";
 import { ConsultationBanner } from "./components/contact/ConsultationBanner";
 import { HeroSection } from "./components/Hero/HeroSection";
 import { ServicesSection } from "./components/services/ServicesSection";
@@ -12,6 +13,7 @@ function App() {
         <AboutSection />
         <ConsultationBanner />
         <ServicesSection />
+        <Banner />
       </MainPage>
     </>
   );
