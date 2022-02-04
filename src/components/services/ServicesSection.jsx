@@ -3,8 +3,8 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 
 export const ServicesSection = () => {
   return (
-    <section id="services" className="my-4">
-      <Container>
+    <section id="services" className="my-5">
+      <Container className="pb-4">
         <Row>
           <Col xs={12}>
             <div>

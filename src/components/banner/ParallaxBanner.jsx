@@ -4,10 +4,10 @@ import { Parallax } from "react-parallax";
 export const Banner = () => (
   <div>
     <Parallax
-      blur={{ min: -1, max: 3 }}
-      bgImage="./img/believe-in-yourself.jpg"
-      bgImageAlt="the cat"
-      strength={500}
+      blur={{ min: -15, max: 15 }}
+      bgImage="./img/dumbbell2.jpg"
+      bgImageAlt="dumbell"
+      strength={300}
     >
       <Container
         className="d-flex align-items-center justify-content-center"
