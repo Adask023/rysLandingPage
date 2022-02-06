@@ -1,6 +1,8 @@
 import { AboutSection } from "./components/about/AboutSection";
 import { Banner } from "./components/banner/ParallaxBanner";
 import { ConsultationBanner } from "./components/contact/ConsultationBanner";
+import { ContactSection } from "./components/contact/ContactSection";
+import { FooterSection } from "./components/footer/FooterSection";
 import { HeroSection } from "./components/Hero/HeroSection";
 import { InfoSection } from "./components/info/InfoSection";
 import { ServicesSection } from "./components/services/ServicesSection";
@@ -16,6 +18,8 @@ function App() {
         <ServicesSection />
         <Banner />
         <InfoSection />
+        <ContactSection />
+        <FooterSection />
       </MainPage>
     </>
   );

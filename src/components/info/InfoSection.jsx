@@ -9,7 +9,7 @@ export const InfoSection = () => {
       <section>
         <Container>
           <Row className="mt-4 p-4">
-            <h1 className="text-center my-5">
+            <h1 className="text-center mt-5">
               Co <span className="text-warning">nas</span> wyróżnia?
             </h1>
           </Row>
@@ -33,7 +33,7 @@ export const InfoSection = () => {
               />
             </Col>
           </Row>
-          <Row className="mt-2 p-4 justify-content-center align-items-center">
+          <Row className="mt-2 p-4 justify-content-center align-items-center flex-column-reverse flex-md-row">
             <Col xs="12" md="4" className={`${itemsClasses}`}>
               <img
                 width="100%"
