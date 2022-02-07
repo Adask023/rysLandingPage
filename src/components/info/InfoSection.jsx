@@ -8,7 +8,7 @@ export const InfoSection = () => {
     <>
       <section id="moreinfo">
         <Container>
-          <Row className="mt-4 p-4">
+          <Row className="pt-5 p-4">
             <h1 className="text-center mt-5">
               Co <span className="text-warning">nas</span> wyróżnia?
             </h1>
