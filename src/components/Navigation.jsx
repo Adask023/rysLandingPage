@@ -13,19 +13,17 @@ export const Navigation = () => {
         collapseOnSelect
       >
         <Container>
-          <Navbar.Brand href="#home"><span className="text-warning">G</span>ravity Gym</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <span className="text-warning">G</span>ravity Gym
+          </Navbar.Brand>
 
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav>
               <Nav.Link href="#aboutus">Kim jesteśmy</Nav.Link>
-              <Nav.Link href="#features">Referencje</Nav.Link>
-              <NavDropdown title="Usługi">
-                <NavDropdown.Item>Konsultacja</NavDropdown.Item>
-                <NavDropdown.Item>Schudnij grubasie</NavDropdown.Item>
-                <NavDropdown.Item>Rozbudowa mięśni</NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link href="#pricing">Kontakt</Nav.Link>
+              <Nav.Link href="#services">Nasze usługi</Nav.Link>
+              <Nav.Link href="#moreinfo">Co nas wyróżnia</Nav.Link>
+              <Nav.Link href="#contact">Skontaktuj się</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

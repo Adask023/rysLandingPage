@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Parallax } from "react-parallax";
 
 export const Banner = () => (
-  <div>
+  <section>
     <Parallax
       blur={{ min: -15, max: 15 }}
       bgImage="./img/dumbbell2.jpg"
@@ -18,5 +18,5 @@ export const Banner = () => (
         </Row>
       </Container>
     </Parallax>
-  </div>
+  </section>
 );

@@ -6,7 +6,7 @@ export const InfoSection = () => {
 
   return (
     <>
-      <section>
+      <section id="moreinfo">
         <Container>
           <Row className="mt-4 p-4">
             <h1 className="text-center mt-5">

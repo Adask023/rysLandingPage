@@ -3,7 +3,7 @@ import { Banner } from "./components/banner/ParallaxBanner";
 import { ConsultationBanner } from "./components/contact/ConsultationBanner";
 import { ContactSection } from "./components/contact/ContactSection";
 import { FooterSection } from "./components/footer/FooterSection";
-import { HeroSection } from "./components/Hero/HeroSection";
+import { HeroSection } from "./components/hero/HeroSection";
 import { InfoSection } from "./components/info/InfoSection";
 import { ServicesSection } from "./components/services/ServicesSection";
 import { MainPage } from "./pages/MainPage";
